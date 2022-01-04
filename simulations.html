@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="en">
+
+<head>
+  <title>Eric J. Tovar</title>
+  <meta name="author" content="Eric Tovar &lt;ejtovar@math.tamu.edu&gt;" />
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link href="includes/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+  <div id="nav">
+    <ul>
+      <li class="first">Eric J. Tovar</li>
+      <li><a href="index.html">Start</a></li>
+      <li><a href="vita.html">Vita</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="leadership.html">Leadership</a></li>
+      <li><a href="simulations.html">Simulations</a></li>
+      <!---<li><a href="teaching.html">Teaching</a></li>--->
+    </ul>
+  </div>
+
+
+
+  <div class="cv firstblock">
+
+    <h1>Simulations</h1>
+    All simulations shown here are using continuous finite elements for the approximation in space.
+    <br />
+    <h3> Mach 3 flow around a cylinder with the Van der Waals equation of state</h3>
+    <video width="720" height="540" controls>
+      <source src="cylinder_movie.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+      </video>
+      <p>These are preliminary results for a Mach 3 flow around a cylinder for the compressible Euler Equations using the Van der Waals equation of state. The computations were done using <a href="https://github.com/conservation-laws/ryujin">ryujin</a> with about 2.4 million Q_1 nodes. This work is done in collaboration with <a href="https://www.math.tamu.edu/~bgclayton/">Bennett Clayton</a>. </p>
+      
+    
+    <h3>Dam break over three bumps with dispersive Serre-Green-Naghdi equations.</h3>
+    <video width="720" height="540" controls>
+      <source src="ipygany_test.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+      </video>
+      <p>Here we see the simulation of a dam break over three bump using the dispersive Serre-Green-Naghdi equations.The computations were done with <a href="https://proteustoolkit.org">Proteus</a> and visualization with <a href="https://github.com/QuantStack/ipygany">Ipygany</a>.</p>
+
+      <h3>Solitary wave overtopping reef with conical island.</h3>
+    <video width="720" height="540" controls>
+      <source src="reef_ipygany.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+      </video>
+      <p>Here we see the propagation of solitary wave towards a triangular shelf with a conical island and the complicated nonlinear processes that occur after the wave breaks and hits the cone. This is a simulation of the experiments conducted at the O.H Hinsdale Wave Research Laboratory at Oregon State University. More details on the experiment can be found here: <a href="http://coastal.usc.edu/currents_workshop/problems/prob5.html">http://coastal.usc.edu/currents_workshop/problems/prob5.html</a>. The computations were done with <a href="https://proteustoolkit.org">Proteus</a> and visualization with <a href="https://github.com/QuantStack/ipygany">Ipygany</a>.</p>
+    
+    
+    <h3>Collision of two of solitary waves</h3>
+    <video width="720" height="540" controls>
+      <source src="collision.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+      </video>
+      <p>Collision of two solitary waves in a 1D channel, D = (0,1000m).</p>
+      
+      
+      <h3>Ship wake waves in a rectangular channel.</h3>
+      <video width="720" height="540" controls>
+	<source src="SW_ship.mp4" type="video/mp4">
+	  Your browser does not support the video tag.
+	</video>
+	<p>Here we simulate ship wake waves in a rectangular channel, D = (0,60m)x(0,5m), using the shallow water equations. The effects of the ship were created with a pressure source term. </p>
+	
+	<h3>Lake Dunlap dam break near New Braunfels, Texas.</h3>
+      <video width="720" height="540" controls>
+	<source src="dunlap_movie.mp4" type="video/mp4">
+	  Your browser does not support the video tag.
+	</video>
+	<p>Here we simulate the breaking of the dam at Lake Dunlap that occured on May 14, 2019 using the shallow water equations. Here is a youtube video that shows the actual dam breaking: <a href="https://www.youtube.com/watch?v=f16a-9SKPwo&feature=emb_title"> link</a> </a></p>
+      
+      <!---<h3>Solitary wave overtopping reef with conical island.</h3>
+      <video width="720" height="540" controls>
+	<source src="reef_movie.mp4" type="video/mp4">
+	  Your browser does not support the video tag.
+	</video>
+	<p>Here we see the propagation of solitary wave towards a triangular shelf with a conical island and the complicated nonlinear processes that occur after the wave breaks and hits the cone. This is a simulation of the experiments conducted at the O.H Hinsdale Wave Research Laboratory at Oregon State University. More details on the experiment can be found here: <a href="http://coastal.usc.edu/currents_workshop/problems/prob5.html">http://coastal.usc.edu/currents_workshop/problems/prob5.html</a>  Note for visualization purposes, we let the "dry" states be roughly 1mm. </a></p>--->
+      
+      <h3>Solitary wave propagating towards conical island.</h3>
+      <video width="720" height="540" controls>
+	<source src="island_c_movie.mp4" type="video/mp4">
+	  Your browser does not support the video tag.
+	</video>
+	<p>Here we see a solitary wave propagating towards a conical island where
+	  the wave breaks (or "gently spills") as it hits the island. We included thin cylinders to denote the location of the physical wave gauges that were used in the experiments. Details on the experiment can be found here: <a href="https://nctr.pmel.noaa.gov/benchmark/Laboratory/Laboratory_ConicalIsland/index.html">https://nctr.pmel.noaa.gov/benchmark/Laboratory/Laboratory_ConicalIsland/index.html</a> We reproduce the case of the target amplitude to depth ratio (H/d) being equal 0.1.
+      </a></p>
+      
+     <!--- <h3>Dam break over three bumps with dispersive Serre--Saint-Venant equations.</h3>
+      <video width="720" height="540" controls>
+	<source src="three_bumps_movie.mp4" type="video/mp4">
+	  Your browser does not support the video tag.
+	</video>
+	<p>Here we see the simulation of a dam break over three bump using the modified Green-Naghdi equations. We can clearly the dispersive effects throughout the simulation. </a></p>--->
+      
+      <h3>Dam break over three bumps with Shallow Water equations.</h3>
+      <video width="720" height="540" controls>
+	<source src="sw_bumps.mp4" type="video/mp4">
+	  Your browser does not support the video tag.
+	</video>
+	<p>Here we see the classical shallow water dam break over three bumps. </a></p>
+      
+      
+      <!--<h3>Solitary wave overtopping seawall.</h3>
+      <video width="720" height="540" controls>
+	<source src="comp.mp4" type="video/mp4">
+	  Your browser does not support the video tag.
+	</video>
+	<p>Comparison of modified Green-Naghdi model and Shallow Water model in 1D.</a></p>-->
+
+    <!-- <table>
+      <tr>
+        <td>August 2018 - Present </td>
+        <td>
+          <b> President. </b>
+          <br />
+          <a href="http://siam.math.tamu.edu">SIAM Graduate Student Chapter</a>
+          <br />
+          Texas A&amp;M University
+        </td>
+      </tr>
+      <tr>
+        <td>August 2018 - Present </td>
+        <td>
+          <b> Organizer. </b>
+          <br />
+          <a href="https://www.math.tamu.edu/undergraduate/drp/">Directed Reading Program</a>
+          <br />
+          Texas A&amp;M University
+        </td>
+      </tr>
+    </table> -->
+
+  </div>
+
+
+  <div id="footer">
+    <i></i>
+  </div>
+
+</body>
+
+</html>
